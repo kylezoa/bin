@@ -3,9 +3,7 @@
 #Meh, the outrageous prices of movie concessions
 
 from time import sleep
-<<<<<<< HEAD
 from Decimal import 
->>>>>>> 1916079154852963da7539de663c9717217e6340
 
 #price and size list
 sizes = ['small', 'medium', 'large', 'x-large']
@@ -35,9 +33,7 @@ def askSize(product, priceList):
     if (selection > len(priceList)) or (selection < 1):
         return 0
     else:
-<<<<<<< HEAD
         print('You have selected the ' + sizes[selection - 1] + ' size ' + product + '.')
->>>>>>> 1916079154852963da7539de663c9717217e6340
         return priceList[selection - 1]
 
 print("\nHi, how many I help you rip you off on expensive beverages and popcorn?\n")
@@ -67,12 +63,10 @@ while popcornPrice == 0:
     
 #ask general beverage
 askBeverageGeneral = '''\nWhat beverage would you like?
-<<<<<<< HEAD
                     Press 1 for Coke (no diet for you woosies)
                     Press 2 for 7-Up
                     Press 3 for 7-11 GULP Slurpy ($4.00)
                     Press 4 for bottled water which is worse than tap water.. Aquafina ($8.00)\n'''
->>>>>>> 1916079154852963da7539de663c9717217e6340
     
 while True:
     print(askBeverageGeneral)
@@ -96,8 +90,6 @@ while True:
 tax = (popcornPrice + beveragePrice) * 0.0925
 surcharge = 2.00
 
-<<<<<<< HEAD
 print('\nThe popcorn cost $' + str(popcornPrice) + ' and your beverage cost $' + str(beveragePrice) + ' with a tax of $' + str(tax) + '. Your final total including a $2.00 surcharge is, $' + str(popcornPrice + beveragePrice + tax + surcharge) + '. Thanks for purchasing your grub here!') 
->>>>>>> 1916079154852963da7539de663c9717217e6340
 
 #and that's your average concession stand ladies and gentlemen!
