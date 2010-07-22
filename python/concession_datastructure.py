@@ -3,7 +3,6 @@
 #Meh, the outrageous prices of movie concessions
 
 from time import sleep
-from Decimal import 
 
 #price and size list
 sizes = ['small', 'medium', 'large', 'x-large']
@@ -90,6 +89,6 @@ while True:
 tax = (popcornPrice + beveragePrice) * 0.0925
 surcharge = 2.00
 
-print('\nThe popcorn cost $' + str(popcornPrice) + ' and your beverage cost $' + str(beveragePrice) + ' with a tax of $' + (tax) + '. Your final total including a $2.00 surcharge is, $' + (popcornPrice + beveragePrice + tax + surcharge) + '. Thanks for purchasing your grub here!') 
+print('\nThe popcorn cost $' + str(popcornPrice) + ' and your beverage cost $' + str(beveragePrice) + ' with a tax of $' + round(tax, 2) + '. Your final total including a $2.00 surcharge is, $' + round(popcornPrice + beveragePrice + tax + surcharge, 2) + '. Thanks for purchasing your grub here!') 
 
 #and that's your average concession stand ladies and gentlemen!
