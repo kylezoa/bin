@@ -85,7 +85,7 @@ while True:
     printInvalidSelection()
 
 #sneaky prices
-tax = (popcornPrice + beveragePrice) * 0.0925
+tax = round((popcornPrice + beveragePrice) * 0.0925, 2)
 surcharge = 2.00
 
 print('\nThe popcorn cost $' + str(popcornPrice) + ' and your beverage cost $' + str(beveragePrice) + ' with a tax of $' + str(tax) + '. Your final total including a $2.00 surcharge is, $' + str(popcornPrice + beveragePrice + tax + surcharge) + '. Thanks for purchasing your grub here!') 
