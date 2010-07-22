@@ -25,6 +25,7 @@ def askSize(product, priceList):
     
     selection = inputSelection()
     
+    #if number > the number of size selection or < 1 it returns 0 that goes to a while statement for each selection
     if (selection > len(sizes)) or (selection < 1):
         return 0
     else:
