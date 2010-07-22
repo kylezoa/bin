@@ -90,6 +90,6 @@ while True:
 tax = (popcornPrice + beveragePrice) * 0.0925
 surcharge = 2.00
 
-print('\nThe popcorn cost $' + str(popcornPrice) + ' and your beverage cost $' + str(beveragePrice) + ' with a tax of $' + str(tax) + '. Your final total including a $2.00 surcharge is, $' + str(popcornPrice + beveragePrice + tax + surcharge) + '. Thanks for purchasing your grub here!') 
+print('\nThe popcorn cost $' + (popcornPrice) + ' and your beverage cost $' + (beveragePrice) + ' with a tax of $' + (tax) + '. Your final total including a $2.00 surcharge is, $' + (popcornPrice + beveragePrice + tax + surcharge) + '. Thanks for purchasing your grub here!') 
 
 #and that's your average concession stand ladies and gentlemen!
