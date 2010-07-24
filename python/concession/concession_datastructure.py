@@ -1,4 +1,5 @@
 #Created by Kyle Cheung with help from "CaZe" Licensed under the MIT/X11 license: http://www.opensource.org/licenses/mit-license.php
+#Copyright 2010 Kyle Cheung
 
 #Meh, the outrageous prices of movie concessions
 
