@@ -1,3 +1,4 @@
+#concession_datastructure.py - Automated Concession Teller
 #Created by Kyle Cheung with help from "CaZe" Licensed under the MIT/X11 license: http://www.opensource.org/licenses/mit-license.php
 #Copyright 2010 Kyle Cheung
 
